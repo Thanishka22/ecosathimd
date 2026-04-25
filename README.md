@@ -1,8 +1,8 @@
-# EcoSathi MD 🌿
+# EcoJustice MD 🌿
 
 **Environmental Concern Reporter for Maryland Residents**
 
-EcoSathi MD is a single-page civic tool that helps Maryland residents report, analyze, and collectively document environmental concerns — powered by Google Gemini AI.
+EcoJustice MD is a single-page civic tool that helps Maryland residents report, analyze, and collectively document environmental concerns — powered by Google Gemini AI.
 
 ---
 
@@ -83,7 +83,7 @@ ecosathimd/
 
 ## Disclaimer
 
-EcoSathi MD is for educational and civic awareness purposes only. It does not provide legal advice. All AI-generated content should be independently verified before submission to any authority.
+EcoJustice MD is for educational and civic awareness purposes only. It does not provide legal advice. All AI-generated content should be independently verified before submission to any authority.
 
 ---
 

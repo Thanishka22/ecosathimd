@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EcoSathi MD — Environmental Concern Reporter</title>
+    <title>EcoJustice MD — Environmental Concern Reporter</title>
     <style>
         *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -285,7 +285,7 @@
 
 <header>
     <div>
-        <div class="logo">Eco<span class="logo-leaf">Sathi</span> MD</div>
+        <div class="logo">Eco<span class="logo-leaf">Justice</span> MD</div>
         <span class="logo-sub">Environmental Concern Reporter · Maryland</span>
     </div>
     <nav>
@@ -402,7 +402,7 @@ const SEED = [
 // ── Storage ──────────────────────────────────────────────────────
 function loadReports() {
     try {
-        const raw = localStorage.getItem('ecosathi_v1');
+        const raw = localStorage.getItem('ecojustice_v1');
         reports = raw ? JSON.parse(raw) : JSON.parse(JSON.stringify(SEED));
     } catch {
         reports = JSON.parse(JSON.stringify(SEED));
@@ -412,7 +412,7 @@ function loadReports() {
 }
 
 function saveReports() {
-    localStorage.setItem('ecosathi_v1', JSON.stringify(reports));
+    localStorage.setItem('ecojustice_v1', JSON.stringify(reports));
 }
 
 
@@ -680,7 +680,7 @@ ${(r.analysis.what_to_document || []).map((x, i) => `${i + 1}. ${x}`).join('\n')
 Requested Action:
 This report is submitted for your review. The conditions described above may warrant investigation to determine whether applicable environmental standards require attention. No conclusion regarding regulatory violations is made herein.
 
-Submitted via: EcoSathi MD Community Reporter
+Submitted via: EcoJustice MD Community Reporter
 Disclaimer: Educational only, not legal advice.`;
     }
 
