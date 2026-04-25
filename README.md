@@ -11,11 +11,8 @@ EcoSathi MD is a single-page civic tool that helps Maryland residents report, an
 ### Report Form
 ![Report Form](screenshots/report-form.png)
 
-### Analysis Result — Acute Concern
+### Analysis Result
 ![Analysis Result](screenshots/analysis-result.png)
-
-### Complaint Draft
-![Complaint Draft](screenshots/complaint-draft.png)
 
 ### Community Feed
 ![Community Feed](screenshots/community-feed.png)
